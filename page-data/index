@@ -1,6 +1,33 @@
 <?php
+$pagetitle = "September 25-26: U Penn open source hackathon";
 $content = <<<EOD
-The content
+<h2>Open source comes to campus</h2>
+
+<p>We're free software enthusiasts.</p>
+
+<p>We want U Penn students to have the community knowledge and technical skills to participate in
+globally distributed software projects: Big ones, like Firefox and WordPress, and small ones, like
+PyBlosxom and angband.</p>
+
+<p>Does that sound cool? We'll teach you.</p>
+
+<h2>Saturday, the 25th: Small-group learning</h2>
+
+<p>We want to bring 
+
+
+<h2>Sunday, the 26th: Build things</h2>
+
+<h2>Give-aways</h2>
+
+<p>
+
+<h2>Supported and sponsored by the community</h2>
+
+<p>
+This hackathon is co-organized by the <a href="http://dp.seas.upenn.edu/index.html">U Penn Dining Philosophers</a>,
+Yuvi Masory, and OpenHatch. Learn more about us and 
+</p>
 EOD;
 
 require_once("template.php");
