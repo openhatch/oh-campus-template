@@ -1,0 +1,7 @@
+<?php
+$content = <<<EOD
+The content
+EOD;
+
+require_once("template.php");
+?>
