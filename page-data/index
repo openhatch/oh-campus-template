@@ -50,21 +50,6 @@ we'll <strong>feed you lunch</strong>.</p>
 
 <br style="clear: both;">
 
-<h2>Why do it?</h2>
-
-<p>You should sign up because open source <em>is</em> the real world.
-If you become part of the community, you can collaborate with people
-as close as 34th Street and as far as Australia on software projects
-people actually use.</p>
-
-<p class="doit">Learn more about <a href="why/">why you should sign up</a>.</p>
-
-<h2>Supported and sponsored by the community</h2>
-
-<p>
-This hackathon is co-organized by the <a href="http://dp.seas.upenn.edu/index.html">U Penn Dining Philosophers</a>,
-Yuvi Masory, and OpenHatch. Learn more about us and 
-</p>
 EOD;
 
 require_once("template.php");
