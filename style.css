@@ -18,7 +18,6 @@ ul#nav li.activelink a,ul#nav li.activelink a:hover{background: #FFF;color: #003
 
 #right {
 	float: left;
-	width: 76%;
 	padding: 1em;
 	margin-bottom: 1.2em;
 	background: #eee;
