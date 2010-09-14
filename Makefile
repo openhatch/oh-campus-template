@@ -1,4 +1,4 @@
-all: index.html hackathon/index.html learning/index.html
+all: index.html hackathon/index.html learning/index.html about/index.html
 
 clean:
 	@rm index.html
@@ -12,3 +12,6 @@ hackathon/index.html: template.php page-data/hackathon
 
 learning/index.html: template.php page-data/learning
 	php page-data/learning > learning/index.html
+
+about/index.html: template.php page-data/about
+	php page-data/about > about/index.html
