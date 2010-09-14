@@ -1,6 +1,30 @@
 <?php
 $page_title = "Hackathon";
 $content = <<<EOD
+<h2>An open source hackathon</h2>
+
+<p>Bring your laptop and work on an open source software project.
+The work you do can be programming, writing documentation, making
+fun of people through <abbr title="Internet Relay Chat">IRC</abbr>,
+or discovering and reporting usability problems, and more.</p>
+
+<p>At this hackathon, the point is to help you get involved. To help with that,
+we'll have Asheesh Laroia from <a href="http://openhatch.org/">OpenHatch</a>
+show you how to involved in a project. If you don't know what you want to work on,
+or you get stuck, you can ask for help from the experts in attendance.</p>
+
+<p>Sure, they're experts, but they're attending to hear your question
+
+<h2>Where and when</h2>
+
+<p>The essential details:</p>
+
+<ul>
+<li>Sunday, September 26
+<li>Doors open at FIXME
+<li>If you get there within the first 30 minutes, we'll make you coffee.</li>
+</ul>
+
 EOD;
 
 require_once("template.php");
