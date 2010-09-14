@@ -1,13 +1,17 @@
+<?php
+$site_title = "Open source immersion at U Penn";
+?>
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<title>Minimalistic Design Template</title>
+<title><?php echo $page_title?> (within <?php echo $site_title ?>)</title>
 <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 </head>
 <body>
 <div id="header">
-<h1><?php echo $pagetitle?></h1>
+<h1><?php echo $site_title?>: <?php echo $page_title ?></h1>
  <div id="menu">
   <ul id="nav">
    <li><a href="#">Home</a></li>
