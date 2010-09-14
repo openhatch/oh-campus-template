@@ -19,7 +19,7 @@ $BASE="http://linode.openhatch.org/~sip/";
    <li><a href="">Home</a></li>
    <li><a href="learning/">Learning</a></li>
    <li><a href="hackathon/">Hackathon</a></li>
-   <li><a href="sponsors/">Sponsors</a></li>
+   <li><a href="about/">About</a></li>
   </ul>
  </div>
 </div>
