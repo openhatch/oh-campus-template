@@ -6,10 +6,11 @@ $content = <<<EOD
 <p>We're free software enthusiasts.</p>
 
 <p>We want U Penn students to have the community knowledge and technical skills to participate in
-globally distributed software projects: Big ones, like Firefox and WordPress, and small ones, like
-PyBlosxom and angband.</p>
-
-<p>
+globally distributed software projects: Big ones, like
+<a href="http://www.mozilla.com/firefox/">Firefox</a> and 
+<a href="http://wordpress.org/">WordPress</a>, and small ones, like
+<a href="http://pyblosxom.bluesock.org/">PyBlosxom</a> and
+<a href="http://rephial.org/">angband</a>.</p>
 
 <p>Does that sound cool? We'll teach you.</p>
 
