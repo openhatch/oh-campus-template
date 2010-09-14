@@ -1,4 +1,4 @@
-all: index.html hackathon/index.html
+all: index.html hackathon/index.html learning/index.html
 
 clean:
 	@rm index.html
