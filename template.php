@@ -1,6 +1,6 @@
 <?php
 $site_title = "Open source immersion at U Penn";
-$BASE="http://linode.openhatch.org/~sip/";
+$BASE="http://penn.openhatch.org/";
 ?>
 
 <?xml version="1.0" encoding="UTF-8"?>
