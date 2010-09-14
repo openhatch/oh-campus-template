@@ -17,7 +17,7 @@ $BASE="http://linode.openhatch.org/~sip/";
  <div id="menu">
   <ul id="nav">
    <li><a href="">Home</a></li>
-   <li><a href="signup/">Learning</a></li>
+   <li><a href="learning/">Learning</a></li>
    <li><a href="hackathon/">Hackathon</a></li>
    <li><a href="sponsors/">Sponsors</a></li>
   </ul>
