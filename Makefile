@@ -9,3 +9,6 @@ index.html: template.php page-data/index
 
 hackathon/index.html: template.php page-data/hackathon
 	php page-data/hackathon > hackathon/index.html
+
+learning/index.html: template.php page-data/learning
+	php page-data/learning > learning/index.html
