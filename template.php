@@ -1,5 +1,6 @@
 <?php
 $site_title = "Open source immersion at U Penn";
+$BASE="http://linode.openhatch.org/~sip/";
 ?>
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -8,6 +9,7 @@ $site_title = "Open source immersion at U Penn";
 <head>
 <title><?php echo $page_title?> (within <?php echo $site_title ?>)</title>
 <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<base href="<?php echo $BASE ?>" />
 </head>
 <body>
 <div id="header">
