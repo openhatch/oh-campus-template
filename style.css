@@ -52,11 +52,16 @@ font: 95%/1.3 TrebuchetMS,Arial,sans-serif;
 ul {  padding: 0; margin: 0;}
 li { list-style-type: none;}
 
+.doit {
+    text-align: right;
+}
+
 /* Asheesh's additions */
 .floatleft {
     float: left;
     width: 36%;
     margin: 2%;
+    padding: 10px;
     border: 2px dashed white;
     height: 12em;
 }

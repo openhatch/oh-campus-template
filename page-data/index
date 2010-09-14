@@ -1,5 +1,5 @@
 <?php
-$pagetitle = "September 25-26: U Penn open source hackathon";
+$pagetitle = "Open source immersion at U Penn";
 $content = <<<EOD
 <h2>Open source comes to campus</h2>
 
@@ -9,17 +9,40 @@ $content = <<<EOD
 globally distributed software projects: Big ones, like Firefox and WordPress, and small ones, like
 PyBlosxom and angband.</p>
 
+<p>
+
 <p>Does that sound cool? We'll teach you.</p>
 
 <div class="floatleft">
 <h2>Small-group learning</h2>
+
+<p>On <strong>Saturday, Sep 25</strong>, we'll teach 25 U Penn students.</p>
+
+<p>We'll <strong>feed you lunch</strong> and give you hands-on sessions where you learn
+about open source licensing, collaboration tools, and how free software projects
+are organized.</p>
+
+<p class="doit">You should really <a href="signup/">sign up</a>.</p>
+
 </div>
 
 <div class="floatleft">
 <h2>Build things</h2>
+
+<p>If you want to you're already an elite kernel hackerFor everyone who goes through SaturdayIf you're already 
+
 </div>
 
 <br style="clear: both;">
+
+<h2>Why do it?</h2>
+
+<p>You should sign up because open source <em>is</em> the real world.
+If you become part of the community, you can collaborate with people
+as close as 34th Street and as far as Australia on software projects
+people actually use.</p>
+
+<p class="doit">Learn more about <a href="why/">why you should sign up</a>.</p>
 
 <h2>Supported and sponsored by the community</h2>
 
