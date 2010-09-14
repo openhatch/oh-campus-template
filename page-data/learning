@@ -1,0 +1,9 @@
+<?php
+$page_title = "Learning day";
+$content = <<<EOD
+<h2>Learn</h2>
+
+EOD;
+
+require_once("template.php");
+?>
