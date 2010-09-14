@@ -57,6 +57,7 @@ li { list-style-type: none;}
 
 /* Asheesh's additions */
 .floatleft {
+    background-color: #FFF6BF;
     float: left;
     width: 36%;
     margin: 2%;
