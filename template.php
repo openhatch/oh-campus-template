@@ -16,10 +16,10 @@ $BASE="http://linode.openhatch.org/~sip/";
 <h1><?php echo $site_title?>: <?php echo $page_title ?></h1>
  <div id="menu">
   <ul id="nav">
-   <li><a href="#">Home</a></li>
-   <li><a href="#">About Me</a></li>
-   <li><a href="#">Archives</a></li>
-   <li><a href="#">Sitemap</a></li>
+   <li><a href="">Home</a></li>
+   <li><a href="signup/">Learning</a></li>
+   <li><a href="hackathon/">Hackathon</a></li>
+   <li><a href="sponsors/">Sponsors</a></li>
   </ul>
  </div>
 </div>
