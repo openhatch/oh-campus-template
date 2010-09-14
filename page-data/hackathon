@@ -1,0 +1,7 @@
+<?php
+$page_title = "Hackathon";
+$content = <<<EOD
+EOD;
+
+require_once("template.php");
+?>
