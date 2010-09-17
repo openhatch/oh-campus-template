@@ -4,16 +4,15 @@ $content = <<<EOD
 <h2>Who we are</h2>
 
 <p>The event is put together by
-<a href="http://openhatch.org/people/paulproteus/">Asheesh Laroia</a> and
-<a href="http://openhatch.org/people/ymasory/">Yuvi Masory</a>. Asheesh hopes
+<a href="http://openhatch.org/people/paulproteus/">Asheesh Laroia</a>,
+<a href="http://openhatch.org/people/ymasory/">Yuvi Masory</a>, and <a href="http://github.com/fford">Felice Ford</a> with the generous help of the Penn Department of Computer and Information Science. Asheesh hopes
 that it becomes the first of a series of OpenHatch-led student immersion events
 in the free software community.</p>
 
 <h2>Sponsors</h2>
 
-<p>We're grateful to have the sponsorship of <a href="http://github.com/">Github</a> and
-<a href="http://bitbucker.com/">Bitbucket</a> as well as other groups. We'll have more
-information about sponsors in the days to come.</p>
+<p>We're grateful to have the sponsorship of <a href="http://github.com/">Github</a>,
+<a href="http://bitbucker.com/">Bitbucket</a>, <a href="http://oreilly.com/">O'Reilly</a>, and <a href="http://pragprog.com/">Pragmatic Bookshelf</a>. They have provided us with funding and lots of goodies to give to attendees.</p>
 
 <h2>Get in touch</h2>
 

@@ -1,5 +1,5 @@
 <?php
-$site_title = "Open source immersion at U Penn";
+$site_title = "Open Source Immersion at UPenn";
 $BASE="http://penn.openhatch.org/";
 ?>
 
