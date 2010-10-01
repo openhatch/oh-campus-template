@@ -20,6 +20,7 @@ $BASE="http://penn.openhatch.org/";
    <li><a href="learning/">Learning</a></li>
    <li><a href="hackathon/">Hackathon</a></li>
    <li><a href="about/">About</a></li>
+   <li><a href="old-index/">Old front page</a></li>
   </ul>
  </div>
 </div>
