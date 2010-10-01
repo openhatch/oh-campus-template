@@ -9,6 +9,7 @@ $content = <<<EOD
 <li>Join <a href="http://lists.openhatch.org/mailman/listinfo/penn">the Penn open source email list</a> to stay in touch</li>
 <li>Chat on the ##penn channel on <a href="http://freenode.net/">freenode IRC</a></li>
 <li><em>Lurk</em> by quietly joining a mailing list or IRC chat room for a cool project</li>
+<li><a href="mailto:penn@openhatch.org">Email us</a> if you want our help organizing another event</li>
 </ul>
 
 </div>
@@ -18,6 +19,7 @@ $content = <<<EOD
 
 <ul>
 <li>Read a <a href="http://quaid.fedorapeople.org/TOS/Practical_Open_Source_Software_Exploration/html/">friendly textbook about open source</a></li>
+<li>Try the <a href="exercises/session-3/">exercises from the project-organization module</a></li>
 <li>Email the list asking for ideas for what to do next</li>
 <li>Read more about <a href="http://www.gitready.com/">git</a></li>
 <li>Go to <a href="http://openhatch.org/search/">OpenHatch</a> and find a bitesize or documentation bug to dive into (and ask for help when you get stuck)</li>
