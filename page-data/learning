@@ -2,32 +2,6 @@
 $page_title = "Learning day";
 $content = <<<EOD
 
-<div class="floatleft">
-<h2>It's over... keep in touch</h2>
-
-<ul>
-<li>Join <a href="http://lists.openhatch.org/mailman/listinfo/penn">the Penn open source email list</a> to stay in touch</li>
-<li>Chat on the ##penn channel on <a href="http://freenode.net/">freenode IRC</a></li>
-<li><em>Lurk</em> by quietly joining a mailing list or IRC chat room for a cool project</li>
-<li><a href="mailto:penn@openhatch.org">Email us</a> if you want our help organizing another event</li>
-</ul>
-
-</div>
-
-<div class="floatleft">
-<h2>Further reading</h2>
-
-<p class="doit">
-<strong><a href="http://openhatch.org/wiki/U_Penn_open_source_2010">Read the wiki page about the event</a></strong> &raquo;
-</p>
-
-</div>
-
-
-<br style="clear: both;" />
-
-
-
 <h2>Why do it?</h2>
 
 <p>Open source software like Linux and Firefox are used by hundreds of millions of people.
