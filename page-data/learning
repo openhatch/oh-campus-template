@@ -1,6 +1,35 @@
 <?php
 $page_title = "Learning day";
 $content = <<<EOD
+
+<div class="floatleft">
+<h2>It's over... keep in touch</h2>
+
+<ul>
+<li>Join <a href="http://lists.openhatch.org/mailman/listinfo/penn">the Penn open source email list</a> to stay in touch</li>
+<li>Chat on the ##penn channel on <a href="http://freenode.net/">freenode IRC</a></li>
+<li><em>Lurk</em> by quietly joining a mailing list or IRC chat room for a cool project</li>
+</ul>
+
+</div>
+
+<div class="floatleft">
+<h2>Further reading</h2>
+
+<ul>
+<li>Read a <a href="http://quaid.fedorapeople.org/TOS/Practical_Open_Source_Software_Exploration/html/">friendly textbook about open source</a></li>
+<li>Email the list asking for ideas for what to do next</li>
+<li>Read more about <a href="http://www.gitready.com/">git</a></li>
+<li>Go to <a href="http://openhatch.org/search/">OpenHatch</a> and find a bitesize or documentation bug to dive into (and ask for help when you get stuck)</li>
+</ul>
+
+</div>
+
+
+<br style="clear: both;" />
+
+
+
 <h2>Why do it?</h2>
 
 <p>Open source software like Linux and Firefox are used by hundreds of millions of people.
@@ -35,20 +64,6 @@ technical writing, and testing. And we're looking for people who are enthusiasti
 <h2>Details</h2>
 Attendees will meet up at the entrance to Penn engineering at 34th and Walnut on Saturday, September 25th. (We have to let you in, doors are locked on the weekend). If you have any trouble getting there give Yuvi Masory a call at 267-979-9156.
 The session will start at 11am sharp and run until 5:30pm. You will go to a local restaurant with your group (about 5 students) in the middle. For free.
-
-<div class="floatleft" style="float: right;">
-<h2>It's over... what now?</h2>
-
-<ul>
-<li>Join <a href="http://lists.openhatch.org/mailman/listinfo/penn">the discussion email list</a> to stay in touch</li>
-<li>Chat on the ##penn channel on <a href="http://freenode.net/">freenode IRC</a></li>
-<li>Email the list asking for ideas for what to do next</li>
-<li>Read more about <a href="http://www.gitready.com/">git</a></li>
-</ul>
-
-</div>
-
-<br style="clear: both;" />
 
 EOD;
 
