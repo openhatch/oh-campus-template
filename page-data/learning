@@ -19,7 +19,7 @@ $content = <<<EOD
 
 <ul>
 <li>Read a <a href="http://quaid.fedorapeople.org/TOS/Practical_Open_Source_Software_Exploration/html/">friendly textbook about open source</a></li>
-<li>Try the <a href="exercises/session-3/">exercises from the project-organization module</a></li>
+<li>Review <a href="http://openhatch.org/wiki/U_Penn_open_source_2010">what topics we covered, and the exercises we used</a></li>
 <li>Email the list asking for ideas for what to do next</li>
 <li>Read more about <a href="http://www.gitready.com/">git</a></li>
 <li>Go to <a href="http://openhatch.org/search/">OpenHatch</a> and find a bitesize or documentation bug to dive into (and ask for help when you get stuck)</li>
