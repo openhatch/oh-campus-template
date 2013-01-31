@@ -1,23 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-<title>Home (within Open Source Comes to Campus at Harvard)</title>
-<link rel="stylesheet" type="text/css" href="harvard.openhatch.org/style.css" media="screen" />
-<base href="harvard.openhatch.org"/>
-</head>
-<body>
-<div id="header">
-<h1>Open Source Comes to Campus at Harvard</h1>
- <div id="menu">
-  <ul id="nav">
-   <li><a href="">Home</a></li>
-   <li><a href="schedule/">Schedule</a></li>
-   <li><a href="about/">About</a></li>
-  </ul>
- </div>
-</div>
-<div id="content">
-<div id="right">
+<?php
+$page_title = "Home";
+$content = <<<EOD
 <h2>Open source comes to campus</h2>
 
 <p>We're free software enthusiasts.</p>
@@ -46,8 +29,7 @@ are organized.</p>
 </div>
 
 <br style="clear: both;">
-</div>
-	
-</div>
-</body>
-</html>
+EOD;
+
+require_once("template.php");
+
