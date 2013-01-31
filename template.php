@@ -1,6 +1,7 @@
 <?php
-$site_title = "Open Source Immersion at UPenn";
-$BASE="http://penn.openhatch.org/";
+$site_title = "Open Source Comes to Campus: Harvard University";
+$BASE="file:/home/shauna/Desktop/ShaunaGM/Code/OH/oh-events-harvard"
+#$BASE="http://penn.openhatch.org/";
 ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
@@ -17,7 +18,6 @@ $BASE="http://penn.openhatch.org/";
    <li><a href="learning/">Learning</a></li>
    <li><a href="hackathon/">Hackathon</a></li>
    <li><a href="about/">About</a></li>
-   <li><a href="old-index/">Old front page</a></li>
   </ul>
  </div>
 </div>
