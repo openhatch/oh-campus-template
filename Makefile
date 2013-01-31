@@ -1,4 +1,4 @@
-all: index.html schedule/index.html hackathon/index.html learning/index.html about/index.html old-index/index.html
+all: index.html schedule/index.html about/index.html old-index/index.html
 
 clean:
 	@rm index.html
@@ -12,9 +12,6 @@ old-index/index.html: template.php page-data/old-index
 
 schedule/index.html: template.php page-data/schedule
 	php page-data/schedule > schedule/index.html
-
-learning/index.html: template.php page-data/learning
-	php page-data/learning > learning/index.html
 
 about/index.html: template.php page-data/about
 	php page-data/about > about/index.html
