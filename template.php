@@ -14,8 +14,7 @@ $BASE="http://harvard.openhatch.org/";
  <div id="menu">
   <ul id="nav">
    <li><a href="">Home</a></li>
-   <li><a href="learning/">Learning</a></li>
-   <li><a href="hackathon/">Hackathon</a></li>
+   <li><a href="schedule/">Schedule</a></li>
    <li><a href="about/">About</a></li>
   </ul>
  </div>

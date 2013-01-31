@@ -1,24 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-<title>Learning day (within Open Source Comes to Campus at Harvard)</title>
-<link rel="stylesheet" type="text/css" href="harvard.openhatch.org/style.css" media="screen" />
-<base href="harvard.openhatch.org" />
-</head>
-<body>
-<div id="header">
-<h1>Open Source Comes to Campus at Harvard: Schedule</h1>
- <div id="menu">
-  <ul id="nav">
-   <li><a href="">Home</a></li>
-   <li><a href="schedule/">Schedule</a></li>
-   <li><a href="about/">About</a></li>
-  </ul>
- </div>
-</div>
-<div id="content">
-<div id="right">
-
+<?php
+$page_title = "Learning day";
+$content = <<<EOD
 <h2>Why do it?</h2>
 
 <p>Open source software like Linux and Firefox are used by hundreds of millions of people.
@@ -52,7 +34,7 @@ technical writing, and testing. And we're looking for people who are enthusiasti
 <h2>Details</h2>
 <p>[Location Information]</p>
 </div>
-	
-</div>
-</body>
-</html>
+
+EOD;
+require_once("template.php");
+
