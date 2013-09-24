@@ -33,7 +33,7 @@ a {                  /* A stands for link, so this section is setting the defaul
 h1 {		     /* This styles the header at the top of the page */
 	font: bold 2.1em Arial, Arial, Sans-Serif;
 	text-align: left;
-	padding: 0;
+	padding: .2em;
 }
 
 h2 {		     /* This styles the headers within the page */
