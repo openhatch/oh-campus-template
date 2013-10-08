@@ -31,10 +31,11 @@
 
                 <h2>The events</h2>
 
-                <p>On <strong>Saturday, October 19th</strong>, in <strong>PLACE</strong>
-                we want to bring you up to speed on open source
-                projects and help you contribute to a real
-                community.</p>
+	<div class="section" id="more">
+  		<h2>More about open source</h2>
+  		<p>Free, open source software is software that is shared freely and available to build upon. It is a great way to apply your skills to real-world projects and social causes. You can participate by writing or reviewing code, answering users' questions, translating the interface to another language, making video tutorials to help new users, and myriad other ways. Open source software is often produced by lots of people collaborating across time and space, and this event specially welcomes newcomers to that style of development.</p>
+		<p>Open source participation is one way to gain real-world skills and make connections that will last you through your career. Volunteer staff will include professionals and academics who use open source daily.</p>
+	</div>
 
                 <p>In the morning, we'll teach you about open source
                 licensing, collaboration tools, and how free software
