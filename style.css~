@@ -33,7 +33,7 @@ a {                  /* A stands for link, so this section is setting the defaul
 h1 {		     /* This styles the header at the top of the page */
 	font: bold 2.1em Arial, Arial, Sans-Serif;
 	text-align: left;
-	padding: .2em;
+	padding: 0;
 }
 
 h2 {		     /* This styles the headers within the page */
@@ -53,7 +53,7 @@ div.section {
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-	background: gray;
+	background: #A6B7C8;
 	color: black;
 	font: Arial, Arial, Sans-Serif;
 	background-image: none;  /* replace none with url('image-url') to set a background image  */
