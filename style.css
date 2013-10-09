@@ -53,7 +53,7 @@ div.section {
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-	background: #A6B7C8;
+	background: gray;
 	color: black;
 	font: Arial, Arial, Sans-Serif;
 	background-image: none;  /* replace none with url('image-url') to set a background image  */
@@ -66,7 +66,7 @@ div.section {
 
 /* This alters the appearance of the div with id="signup". */
 #signup {
-	background: white;
+	background: black;
 	text-align: center;
 }
 
