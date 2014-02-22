@@ -18,11 +18,21 @@ html, body {
 }
 
 body{
-	font: 130%/1.3 TrebuchetMS,Arial,sans-serif;  /* Default fonts */
+	font: 120%/1.2 Fantasque-Regular,TrebuchetMS,Arial,sans-serif;  /* Default fonts */
 	text-align: left; /* Alignment of the text */
+	background: #A6B7C8; /* Main text background color */
 	color: black; /* Main text color */
-	background: white; /* Main text background color */
-	padding-bottom: 20px; /* You can set padding or margin for one side of an element at a time */
+}
+
+@font-face  /* Defines the font to be used */
+{
+	font-family: Fantasque-Regular;  /* Fantasque Sans Mono by Jany Belluz, from http://openfontlibrary.org/en/font/fantasque-sans-mono */
+	src: url(fonts/FantasqueSansMono.woff);
+}
+@font-face  
+{
+	font-family: Fantasque-Bold;  /* Fantasque Sans Mono by Jany Belluz, from http://openfontlibrary.org/en/font/fantasque-sans-mono */
+	src: url(fonts/FantasqueSansMonoBold.woff);
 }
 
 a {                  /* A stands for link, so this section is setting the default characteristics of links. */
@@ -31,32 +41,30 @@ a {                  /* A stands for link, so this section is setting the defaul
 }
 
 h1 {		     /* This styles the header at the top of the page */
-	font: bold 2.1em Arial, Arial, Sans-Serif;
-	text-align: left;
-	padding: 0;
+	font: bold 2.1em Fantasque-Bold,Arial, Arial, Sans-Serif;
+	text-align: center;
 }
 
 h2 {		     /* This styles the headers within the page */
-	font: bold 1.1em Arial, Arial, Sans-Serif;
+	font: bold 1.1em Fantasque-Bold,Arial, Arial, Sans-Serif;
 	padding: 0;
 	margin: 0;
 }
 
 
 /* This section alters the appearance of all divs with the class "section", which is all of the divs in our html file.  We can use it to specify style elements that we want to be the same accross divs. */
-div.section {
-	padding: 1em;
+.section {
+	padding: 20px 50px 20px 50px;
 	margin-bottom: 0;
-	text-align: justify;
-
+        height:100%;
 }
 
-/* If we want the divs with ids plan and more to look the same, we can put them together */
-#plan, #more {
-	background: gray;
+/* We can also edit individual divs by using their ids. */
+#plan {
+	padding-top:0px;
 	color: black;
-	font: Arial, Arial, Sans-Serif;
 	background-image: none;  /* replace none with url('image-url') to set a background image  */
+        overflow:hidden;
 }
 
 /* You can alter the links within a div with the following syntax */
@@ -66,7 +74,7 @@ div.section {
 
 /* This alters the appearance of the div with id="signup". */
 #signup {
-	background: black;
+	background: white;
 	text-align: center;
 }
 
@@ -76,11 +84,14 @@ div.section {
 	color: black; 
 }
 
-/* This alters the appearance of the div with id="minileft", the div containing the images */
-.minileft {
-	float: left;
-	height: 100%;
-	margin-top: 1.5em;
-	margin-right: 1em;
+/* The min-left div contains the images. */
+.mini-left {
+	width:300px;
+	float:left;
+	margin: 0 20px 0 20px;
+        clear:all;
 }
 
+.image {
+       margin-bottom:10px;
+}
