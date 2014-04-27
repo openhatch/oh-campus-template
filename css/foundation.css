@@ -2015,7 +2015,6 @@ img {
 }
 .btn {
     background-clip: padding-box;
-    background-color: #24C0EB;
     /*
     background-color: #7CFFC0;
     */
@@ -2030,7 +2029,7 @@ img {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    margin: 0 5% 5% 5%;
+    
     
 }
 
@@ -2282,7 +2281,7 @@ margin: -10px auto 0 auto;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10%;
+  padding-top: 8%;
   padding-bottom: 10%;
   max-width: initial;
   /*padding: 5% 0 30% 0;*/
