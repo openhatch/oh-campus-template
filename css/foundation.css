@@ -2013,7 +2013,7 @@ img {
     color: white;
     font-family: Futura;
 }
-.btn {
+.btn1 {
     background-clip: padding-box;
     /*
     background-color: #7CFFC0;
@@ -2029,10 +2029,45 @@ img {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    background-color: #24C0EB; 
+    margin: 3% 5% 1% 5%
     
     
 }
 
+.btn1:hover {
+  background-clip: padding-box;
+  background-color: #1FA7CC; 
+  display: inline-block;
+}
+
+.btn2 {
+    background-clip: padding-box;
+    /*
+    background-color: #7CFFC0;
+    */
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-block;
+    font-size:  1em;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    overflow: hidden;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #A6D044; 
+    margin: 3% 5% 1% 5;
+    
+    
+}
+
+.btn2:hover {
+  background-clip: padding-box;
+  background-color: #8FB23B; 
+  display: inline-block;
+}
 
 
 a {

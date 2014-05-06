@@ -7,7 +7,8 @@
     <title>OpenHatch at UC Davis | Open Source Comes To Campus</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="animate.min.css" />
-    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/vendor/modernizr.js">
+    </script>
   </head>
 
   <body>
@@ -18,9 +19,9 @@
         <h1>OPENHATCH</h1>
         <!--<hr>-->
         <h2>@ UC Davis</h2>
-    <div class= "btn" style = "background-color: #24C0EB; margin: 3% 5% 1% 5%;"><a href = "https://docs.google.com/forms/d/1XhT_7qUYsGlOKe1_X-cwlVdc122-MHMtdGUn2vKUd98/viewform" style = "text-decoration: none; font-weight: 400; font-family: 'Open Sans'; ">Click To Register</a></div>
+    <div class= "btn1" ><a href = "https://docs.google.com/forms/d/1XhT_7qUYsGlOKe1_X-cwlVdc122-MHMtdGUn2vKUd98/viewform" style = "text-decoration: none; font-weight: 400; font-family: 'Open Sans'; ">Click To Register</a></div>
         <h4>Or</h4>
-    <div class= "btn" style = "background-color: #A6D044; margin: 1% 5% 1% 5%;"><a href = "https://docs.google.com/forms/d/1kK0n0FdeFF-NUcceIp8WogDWhHqyhb5siueVI70LeDU/viewform" style = "text-decoration: none; font-weight: 400; font-family: 'Open Sans'; ">Sign Up To Be A Mentor</a>
+    <div class= "btn2" ><a href = "https://docs.google.com/forms/d/1kK0n0FdeFF-NUcceIp8WogDWhHqyhb5siueVI70LeDU/viewform" style = "text-decoration: none; font-weight: 400; font-family: 'Open Sans'; ">Sign Up To Be A Mentor</a>
     </div>
         <br />
         
@@ -68,7 +69,7 @@ window.onscroll = function() {
 
     <div class = "row pic">
     <div class = "large-3 columns">
-        <div id = "circle-bird" class = ""></div>
+        <div id = "circle-bird"></div>
     </div>
     <div class="large-9 columns black ">
       <h2>The Background</h2>
@@ -249,7 +250,7 @@ function toggleBounce() {
     var imagePos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-      if (imagePos < topOfWindow+269) {
+      if (imagePos < topOfWindow+500) {
         $(this).addClass("circletag animated bounceIn");
       }
     });
