@@ -139,12 +139,12 @@ window.onscroll = function() {
     </div>
 
 
-    <div class = "row pic4">
-      <div class = "large-12-centered columns">
+    <div class = "row" style = "height: 600px; width: 100%; margin-bottom: 8%;">
+  
         <h2 id = "location-txt" style = "text-align: center; color: #24C0EB; font-weight:700; font-family: 'Open Sans';">Join Us Here</h2>
-        <p style = "text-align: center; color: #fff; font-family: 'Droid Serif'; font-weight:400;">Kemper Hall  rooms 1127/1131</p>
+        <p style = "text-align: center; color: #222; font-family: 'Droid Serif'; font-weight:700;">Kemper Hall  rooms 1127/1131</p>
         <div id = "map"></div>
-      </div>
+    
     </div>
 
     <div class = "row">
@@ -206,7 +206,7 @@ function init() {
             style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
         },
         scaleControl: true,
-        scrollwheel: true,
+        scrollwheel: false,
         streetViewControl: true,
         draggable : true,
         overviewMapControl: true,
@@ -257,26 +257,7 @@ function toggleBounce() {
       }
     });
   });
-      $(window).scroll(function() {
-    $('#map').each(function(){
-    var imagePos = $(this).offset().top;
 
-    var topOfWindow = $(window).scrollTop();
-      if (imagePos < topOfWindow+660) {
-        $(this).addClass("animated slideInDown");
-      }
-    });
-  });
-          $(window).scroll(function() {
-    $('#location-txt').each(function(){
-    var imagePos = $(this).offset().top;
-
-    var topOfWindow = $(window).scrollTop();
-      if (imagePos < topOfWindow+648) {
-        $(this).addClass("animated bounceInUp");
-      }
-    });
-  });
 </script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
