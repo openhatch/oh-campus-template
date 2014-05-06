@@ -109,6 +109,7 @@ width: 100%; }
  padding: 23% 0 20% 0;
 .row {
   width: 100%;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
@@ -1953,7 +1954,7 @@ img {
 */
 
 .blue h1{
-  color: #F1EBEB;
+
   font-size: 8.3vw;
 
 }
@@ -1974,7 +1975,7 @@ img {
 
 }
 .blue h4 {
-  color: #222;
+  color: #F1EBEB;
   text-align: center;
   /*font-size: 2.5em;*/
  font-family: 'Open Sans';
@@ -2273,7 +2274,7 @@ header {top:0; right:0; bottom:0; left:0; /*width:100%; height:100%;*/ }
       }
 
 .blue h1 {
-  color: #222222;
+  color: rgb(236, 230, 230);
   font-family: 'Open Sans';
   font-weight: 800;
   margin: 0 auto 0 auto;
@@ -2283,7 +2284,7 @@ header {top:0; right:0; bottom:0; left:0; /*width:100%; height:100%;*/ }
 }
 
 .blue h2 {
-  color: #222222;
+  color: #F1EBEB;
   font-family: 'Droid Serif';
   font-weight: 700;
   margin: 0 auto 0 auto;
@@ -2305,8 +2306,7 @@ margin: -10px auto 0 auto;
 .blue {
   
   text-align: center;
-  background: #F1EBEB;
-  /*
+    /*
   background: -moz-radial-gradient(#296ad4 0%, #CACACA 100%);
   background: -webkit-gradient(radial, color-stop(0%, #296ad4), color-stop(100%, #CACACA));
   background: -webkit-radial-gradient(#296ad4 0%, #CACACA 100%);
@@ -2320,11 +2320,22 @@ margin: -10px auto 0 auto;
   margin-right: auto;
   padding-top: 8%;
   padding-bottom: 10%;
-  max-width: initial;
+  background: url(../imgs/happystudents.jpg);
   /*padding: 5% 0 30% 0;*/
+  
 
  }
-
+/*
+ .blue-img {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background: url(../imgs/hs2.jpg) no-repeat;
+  background-position: center 0;
+  
+ }
+*/
 .day-text {
   text-align: center;
   margin: 0 auto;
