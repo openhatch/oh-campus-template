@@ -2294,6 +2294,25 @@ margin: -10px auto 0 auto;
   padding: 50px;
 }
 
+.day-text2 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+
+.day-text2 h4{
+  color: #222;
+  font-family: 'Open Sans'; 
+  font-weight:700; 
+
+}
+
+.day-text2 h4:nth-child(1){
+  margin-top: 0;
+
+
+}
 .day-text p{
   color: #222; 
   font-family: 'Droid Serif'; 
@@ -2309,7 +2328,7 @@ margin: -10px auto 0 auto;
 }
 
 a:hover {
-  color: #222;
+  color: #fff;
 
 
 }
