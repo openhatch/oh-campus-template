@@ -1921,7 +1921,8 @@ img {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: #A6D044; 
+    background-color: #A6D044;
+    /*background-color: #24C0EB;*/ 
     margin: 3% 5% 1% 5;
     
     
@@ -1929,7 +1930,8 @@ img {
 
 .btn2:hover {
   background-clip: padding-box;
-  background-color: #8FB23B; 
+  /*background-color: #1FA7CC;*/
+  background-color: #8FB23B;
   display: inline-block;
 }
 
