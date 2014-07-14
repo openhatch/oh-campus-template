@@ -1,0 +1,17 @@
+.curriculum-page a {
+    color:black;
+    text-decoration:underline;
+}
+
+.curriculum-page p {
+    padding-left:20px;
+}
+
+.curriculum-page h2 {
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.curriculum-page h5 {
+    font-weight:bold;
+}
