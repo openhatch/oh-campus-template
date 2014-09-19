@@ -19,7 +19,7 @@
         
         <img src="http://shaunagm.github.io/personal/images/osbridge2014/choices.jpg" style="height: 250px; float: left; padding: 0px 20px 20px 0px;">
         
-        <p>There are lots of different free software projects out there.  Depending on how you define free software, there are tens of thousands, hundreds of thousands, or even millions.  There's every type of project - from operating systems to browsers to tools for doing science and art to toys for kids.  There's even an open source remote operated submarine!</p>
+        <p>There are lots of different free software projects out there.  Depending on how you define free software, there are tens of thousands, hundreds of thousands, or even millions.  There's every type of project - from operating systems to browsers to tools for doing science and art to toys for kids.  There's even a free/open source <a href="http://openrov.com/">remote operated submarine</a>!</p>
         
         <p>That many choices can be overwhelming.  How do you pick a project?  Where do you even start?</p>
         
@@ -41,7 +41,7 @@
             <li><a href="http://www.ohloh.net/">Ohloh open source directory</a></li>
         </ul>
       
-        <img src="../imgs/arrow.png" style="float: left; padding-right:10px;"><p style="font-size: 20px; font-weight: bold; padding-top:20px;">Make a copy of <a href="">this etherpad</a> for yourself and fill in your answers.</p> 
+        <img src="../imgs/arrow.png" style="float: left; padding-right:10px;"><p style="font-size: 20px; font-weight: bold; padding-top:20px;">Make a copy of <a href="https://etherpad.mozilla.org/finding-a-project">this etherpad</a> for yourself and fill in your answers.</p> 
       
     </div>
     
@@ -156,17 +156,50 @@
         
         <h3>Find accessibility problems in the OpenHatch website</h3>
         
+        <p class="indent-1">The guide to <a href="http://openhatch.github.io/open-source-comes-to-campus/lessons/newcomer-tasks/accessibility/#/" target="_blank">improving accessibility</a> suggests I start by running the project's main page through a web accessibility tool.  When I try this with <b>openhatch.org</b>, I find that the site is missing alt text for many of its images.</p>
+        
         <h3>Report the problem in an issue</h3>
+        
+        <p class="indent-1">From previous research, I know that OpenHatch has its issue tracker on github <a href="https://github.com/openhatch/oh-mainline/issues">here</a>.  I can create a new issue by clicking the green button:</p>
+        
+        <img class="indent-1" src="../imgs/newissue.png">
+        
+        <p class="indent-1">By reporting the issue, I have already made a contribution!</p>
         
         <h3>Install the project</h3>
         
-        <h3>Figure out where to make the change and make it</h3>
+        <p class="indent-1">Through my research, I have found instructions for installing the OpenHatch site <a href="http://openhatch.readthedocs.org/en/latest/getting_started/installation.html">in the documentation</a>. I also know that if I run into trouble I can ask for help on the devel mailing list or in the IRC channel, #openhatch on Freenode.</p>
+        
+        <h3>Figure out where to make the change</h3>
+        
+        <p class="indent-1">A good approach to figuring out where to make changes on a website is to use the site's source to identify a uniquely or near-uniquely named element.  For instance, the first item in the accessibility page was for "penguin.png".  I can do a search for penguin.png either on github, or through the <a href="https://blog.afoolishmanifesto.com/posts/you-should-be-using-git-grep/">git grep</a> terminal command.</p>
        
-        <h3>Run tests, if there are any </h3>
+        <p class="indent-1">When I do this, I find that the images are referenced in <b>mysite/base/templates/base/landing.html</b>.  That's a long path -- I'm glad I didn't look just by poking around in directories!</p>
        
-        <h3>Commit my changes, and make a pull request</h3>
+        <h3>Make the change!  (And run tests, if there are any)</h3>
+        
+        <p class="indent-1">I can make the change by adding an alt attribute to the first instance of penguin.png.  I can test that the change worked by restarting the site and then inspecting the element in my browser.  Is the alt text there?  Success!</p>
+        
+        <p class="indent-1">The project's documentation tells me <a href="http://openhatch.readthedocs.org/en/latest/getting_started/testing_basics.html">how to run tests</a>.  If there's weird output you don't know how to interpret, you can also try running the tests before and after you make your change.  If the test output is identical, your change is probably not the cause of test weirdness, and you can proceed.</p>
+       
+        <h3>Save my changes, and make a pull request</h3>
+        
+        <p class="indent-1">OpenHatch uses git and github, so I can save my changes by committing them and pushing them back to Github.  I can then create a pull request.  (Don't know about committing and pull requests?  Try <a href="https://openhatch.org/wiki/Git_Basics">here</a>.)</p>
+        
+        <img src="../imgs/arrow.png" style="float: left; padding-right:10px;"><p style="font-size: 20px; font-weight: bold; padding-top:20px;">Now you try a contribution!</p> 
         
     </div>
+    
+    <div class="black section">
+    
+        <h2>Learn More</h2>
+    
+        <h4>Need help?  Want to get involved with OpenHatch?  <a href="http://openhatch.readthedocs.org/en/latest/community/contact.html">Join us!</a></h4>
+        
+        <h4>Read about different kinds of contributions at the <a href="http://mergestories.com/">Merge Stories</a> project.</h4>
+        
+    </div>
+    
     
 </body>
 </html>
